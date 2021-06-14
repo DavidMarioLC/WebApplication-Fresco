@@ -1,0 +1,23 @@
+.btn-icon {
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1rem;
+}
+.btn-icon:active {
+  transform: scale(0.95);
+}
+
+.btn-icon.user {
+  background: url("../images/icon-user.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-icon.car {
+  background: url("../images/icon-car.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
