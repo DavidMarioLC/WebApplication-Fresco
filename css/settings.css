@@ -8,7 +8,7 @@
   --headline4: bold 1.5rem/2rem var(--fontbase);
   --headline5: 1.8rem/2.5rem var(--fontbase);
   --headline6: bold 1rem/2rem var(--fontbase);
-  --textmenu: bold 1.3rem/1.5rem var(--fontbase);
+  --textmenu: bold 1rem/1.5rem var(--fontbase);
   --textline1: 1.25rem/1.5rem var(--fontbase);
   --textline2: 1.1rem/2rem var(--fontbase);
   --textline3: 1rem/2rem var(--fontbase);
@@ -25,4 +25,5 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
 }
