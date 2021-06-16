@@ -1,9 +1,10 @@
 @import "./navigation.css";
 
 .header {
-  background: var(--white);
   position: sticky;
   top: 0;
+
+  background: var(--white);
   border-bottom: 0.5px solid var(--primary);
 }
 
