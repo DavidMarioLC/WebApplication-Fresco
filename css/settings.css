@@ -15,6 +15,7 @@
   --textline4: 0.75rem/1.5rem var(--fontbase);
   --button: bold 1.3rem/1.5rem var(--fontbase);
   --primary: #1d1d1d;
+  --primaryVariante: #727272;
   --secondary: #4276fb;
   --white: #ffffff;
 }
@@ -27,4 +28,8 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  margin: 0;
 }

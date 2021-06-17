@@ -1,4 +1,7 @@
 @import "./settings.css";
+@import "./utilities.css";
 @import "./wrapper.css";
 @import "./header.css";
 @import "./button.css";
+@import "./slider.css";
+@import "./description.css";

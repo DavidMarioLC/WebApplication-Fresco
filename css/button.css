@@ -21,3 +21,22 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.btn-shop {
+  padding: 1rem 0.625rem;
+  font: var(--button);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: var(--white);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.btn-shop.btn--primary {
+  background: var(--primary);
+}
+
+.btn-shop.btn--secondary {
+  background: var(--secondary);
+}

@@ -1,0 +1,36 @@
+.slider {
+}
+
+.slider__content {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slider__item {
+  display: inline-block;
+}
+
+.slider__item img {
+  display: block;
+  max-width: 100%;
+}
+
+.slider__dots {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--primaryVariante);
+  border-radius: 50%;
+}
+
+.isActive {
+  background-color: var(--primary);
+}
