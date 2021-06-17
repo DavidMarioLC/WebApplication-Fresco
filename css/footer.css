@@ -1,0 +1,28 @@
+.footer {
+  background: var(--primary);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer__socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  border: 1px solid #fff;
+}

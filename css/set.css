@@ -1,0 +1,30 @@
+.set {
+}
+.set__title {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font: var(--headline3);
+}
+
+.set__content {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.set__item {
+  display: inline-block;
+  text-align: center;
+}
+
+.set__item__image {
+  display: block;
+  max-width: 100%;
+}
+
+.set__item__title {
+  font: var(--headline6);
+}
+.set__item__price {
+  font: var(--headline6);
+}
