@@ -19,6 +19,9 @@
   --secondary: #4276fb;
   --white: #ffffff;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;

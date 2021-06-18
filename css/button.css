@@ -23,6 +23,7 @@
 }
 
 .btn-shop {
+  display: block;
   padding: 1rem 0.625rem;
   font: var(--button);
   text-transform: uppercase;
@@ -30,7 +31,8 @@
   border: none;
   color: var(--white);
   border-radius: 4px;
-  width: 100%;
+  text-decoration: none;
+  text-align: center;
 }
 
 .btn-shop.btn--primary {

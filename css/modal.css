@@ -1,0 +1,108 @@
+.modal {
+  background: rgba(27, 22, 22, 0.795);
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  /* will-change: visibility; */
+  transition: visibility 2s linear;
+}
+.isVisible {
+  visibility: visible;
+}
+
+.modal__content {
+  padding: 2.5rem 0;
+  position: absolute;
+  bottom: 0;
+  background: var(--white);
+}
+.modal__close {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid red;
+
+  font: var(--textline3);
+}
+.modal__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  margin-top: 55px;
+}
+
+.modal__card__left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.modal__card__left__picture {
+  height: 64px;
+  width: 64px;
+}
+.modal__card__left__picture img {
+  display: block;
+}
+
+.modal__card__left__text {
+}
+
+.modal__card__left__text__title {
+  margin: 0;
+  color: var(--primary);
+  font: var(--textline3);
+}
+.modal__card__left__text__price {
+  margin: 0;
+  color: var(--primary);
+  font: var(--textline3);
+  font-weight: 400;
+}
+
+.modal__card__right {
+}
+.modal__card__right__quantity {
+  margin: 0;
+  color: var(--primary);
+  text-align: center;
+  font: var(--textline3);
+  font-weight: 400;
+  border-bottom: 2px solid var(--primary);
+}
+.modal__card__right__remove {
+  color: var(--primary);
+  margin: 0;
+  font: var(--textline3);
+  font-weight: 400;
+}
+
+.modal__info {
+}
+
+.modal__info__price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal__info__price__title {
+  margin: 0;
+  font: var(--textline1);
+}
+
+.modal__info__price__total {
+  margin: 0;
+  font: var(--textline1);
+}
+
+.modal__info__text {
+  font: var(--textline4);
+}
+.modal__text {
+  font: var(--textline3);
+  text-align: center;
+}
