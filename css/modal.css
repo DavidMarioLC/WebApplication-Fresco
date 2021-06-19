@@ -7,8 +7,8 @@
   left: 0;
   right: 0;
   visibility: hidden;
-  /* will-change: visibility; */
-  transition: visibility 2s linear;
+  will-change: visibility;
+  transition: visibility linear;
 }
 .isVisible {
   visibility: visible;
@@ -20,14 +20,22 @@
   bottom: 0;
   background: var(--white);
 }
-.modal__close {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border: 1px solid red;
 
+.modal__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+
+  background: url("../images/icon-close.svg");
+  text-align: center;
+  cursor: pointer;
   font: var(--textline3);
 }
+
 .modal__card {
   display: flex;
   align-items: center;

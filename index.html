@@ -4,7 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="description" content="Portafolio principe fresco" />
     <title>Principe Fresco</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -34,62 +108,64 @@
       </div>
     </header>
     <main class="main">
-      <section class="slider">
-        <div class="slider__content">
-          <div id="slide-1" class="slider__item">
-            <img src="./images/image-principal-01.png" alt="" />
+      <div class="layout-product wrapper">
+        <section class="slider">
+          <div class="slider__content">
+            <div id="slide-1" class="slider__item">
+              <img src="./images/image-principal-01.png" alt="" />
+            </div>
+            <div id="slide-2" class="slider__item">
+              <img src="./images/image-principal-02.png" alt="" />
+            </div>
+            <div id="slide-3" class="slider__item">
+              <img src="./images/image-principal-03.png" alt="" />
+            </div>
+            <div id="slide-4" class="slider__item">
+              <img src="./images/image-principal-04.png" alt="" />
+            </div>
           </div>
-          <div id="slide-2" class="slider__item">
-            <img src="./images/image-principal-02.png" alt="" />
+          <div class="slider__dots">
+            <a class="dot isActive" href="#slide-1"></a>
+            <a class="dot" href="#slide-2"></a>
+            <a class="dot" href="#slide-3"></a>
+            <a class="dot" href="#slide-4"></a>
           </div>
-          <div id="slide-3" class="slider__item">
-            <img src="./images/image-principal-03.png" alt="" />
+        </section>
+        <section class="description wrapper">
+          <div class="product">
+            <h2 class="product__name">Crown Sweatshirt</h2>
+            <p class="product__price">$80.00</p>
           </div>
-          <div id="slide-4" class="slider__item">
-            <img src="./images/image-principal-04.png" alt="" />
+          <div class="sizes">
+            <p class="sizes__title">Size</p>
+            <div class="sizes__types">
+              <p class="sizes__item is-selected">S</p>
+              <p class="sizes__item">M</p>
+              <p class="sizes__item">L</p>
+              <p class="sizes__item">XL</p>
+              <p class="sizes__item">XXL</p>
+            </div>
           </div>
-        </div>
-        <div class="slider__dots">
-          <a class="dot isActive" href="#slide-1"></a>
-          <a class="dot" href="#slide-2"></a>
-          <a class="dot" href="#slide-3"></a>
-          <a class="dot" href="#slide-4"></a>
-        </div>
-      </section>
-      <section class="description wrapper">
-        <div class="product">
-          <h2 class="product__name">Crown Sweatshirt</h2>
-          <p class="product__price">$80.00</p>
-        </div>
-        <div class="sizes">
-          <p class="sizes__title">Size</p>
-          <div class="sizes__types">
-            <p class="sizes__item is-selected">S</p>
-            <p class="sizes__item">M</p>
-            <p class="sizes__item">L</p>
-            <p class="sizes__item">XL</p>
-            <p class="sizes__item">XXL</p>
+          <div class="shopButtons">
+            <a class="btn-shop btn--primary">add to cart</a>
+            <a id="btn-shop" href="#" class="btn-shop btn--secondary"
+              >buy it now</a
+            >
           </div>
-        </div>
-        <div class="shopButtons">
-          <a class="btn-shop btn--primary">add to cart</a>
-          <a id="btn-shop" href="#" class="btn-shop btn--secondary"
-            >buy it now</a
-          >
-        </div>
-        <p class="info-producto">
-          Let them know you’re 90s royalty with this official The Fresh Prince
-          crown pattern sweater. Throw vintage vibes that Uncle Phil would
-          approve of. Featuring woven The Fresh Prince logo on chest. Navy crown
-          print crew neck sweatshirt with white ribbed collar and waist band.
-          Cotton/Poly blend.
-        </p>
-      </section>
+          <p class="info-producto">
+            Let them know you’re 90s royalty with this official The Fresh Prince
+            crown pattern sweater. Throw vintage vibes that Uncle Phil would
+            approve of. Featuring woven The Fresh Prince logo on chest. Navy
+            crown print crew neck sweatshirt with white ribbed collar and waist
+            band. Cotton/Poly blend.
+          </p>
+        </section>
+      </div>
       <!-- modal -->
       <section id="modal" class="modal">
         <div class="modal__content">
           <div class="wrapper">
-            <span id="closeModal" class="modal__close">X</span>
+            <div id="closeModal" class="modal__close"></div>
             <div class="modal__card">
               <div class="modal__card__left">
                 <div class="modal__card__left__picture">
@@ -129,6 +205,11 @@
         <div class="wrapper">
           <h2 class="set__title">YOU MAY ALSO LIKE</h2>
           <div class="set__content">
+            <!-- hand animation -->
+            <div class="hand-animation">
+              <img src="./images/hands.svg" alt="" />
+            </div>
+            <!-- hand animation -->
             <div class="set__item">
               <img
                 class="set__item__image"
@@ -163,12 +244,13 @@
         </div>
       </section>
       <section class="banner">
-        <img
+        <!-- <img
           class="banner__image"
           src="./images/background-bottom.png"
           alt="Banner principe fresco"
           title="Banner principe fresco"
         />
+        <div class="wrapper"></div> -->
       </section>
     </main>
     <footer class="footer">

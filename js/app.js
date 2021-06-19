@@ -22,7 +22,7 @@ function showModal(){
    modal.classList.add('isVisible');
 }
 function hiddenModal(e){
-   e.stopPropagation();
+   
    modal.classList.remove('isVisible');
 }
 

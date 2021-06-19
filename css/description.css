@@ -62,3 +62,14 @@
   margin: 0;
   font: var(--textline2);
 }
+
+@media screen and (min-width: 678px) {
+  .product__name,
+  .product__price {
+    text-align: left;
+  }
+
+  .description {
+    padding: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.hand-animation {
+  position: absolute;
+  right: 40px;
+  top: 40%;
+
+  display: inline-block;
+  animation: moveHand 1s ease infinite alternate;
+}
+
+@keyframes moveHand {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hand-animation {
+    display: none;
+  }
+}
