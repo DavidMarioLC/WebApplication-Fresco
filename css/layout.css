@@ -1,3 +1,7 @@
+.layout-product {
+  padding: 0;
+}
+
 @media screen and (min-width: 678px) {
   .layout-product {
     padding-top: 60px;

@@ -8,7 +8,7 @@
   right: 0;
   visibility: hidden;
   will-change: visibility;
-  transition: visibility linear;
+  transition: visibility ease-in;
 }
 .isVisible {
   visibility: visible;
@@ -113,4 +113,18 @@
 .modal__text {
   font: var(--textline3);
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal__content {
+    padding: 2.5rem 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    background: var(--white);
+  }
+  .modal__card {
+    margin-bottom: 8rem;
+  }
 }
