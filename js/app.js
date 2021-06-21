@@ -7,16 +7,12 @@ const thumbnails = document.querySelectorAll('.thumbnail-image');
 
 
 function changeFocus(){
-   dots.forEach(function(dot){
-    dot.classList.remove('isActive');
-   })
+   dots.forEach(dot => dot.classList.remove('isActive'))
    this.classList.add('isActive');
 }
 
 function changeSize(){
-   sizes.forEach(function(item){
-    item.classList.remove('is-selected');
-   })
+   sizes.forEach(size =>size.classList.remove('is-selected'))
    this.classList.add('is-selected');
 }
 
@@ -29,8 +25,9 @@ function hiddenModal(){
 }
 
 function changeThumbnail(){
-   thumbnails.forEach(thumbnail =>thumbnail.classList.remove('isActiveThumbnail'))
-  this.classList.toggle('isActiveThumbnail');
+   thumbnails.forEach(thumbnail => thumbnail.classList.remove('isActiveThumbnail'))
+   this.classList.toggle('isActiveThumbnail');
+   
    
 }
 
@@ -38,4 +35,4 @@ dots.forEach(dot => dot.addEventListener('click', changeFocus))
 sizes.forEach(item=> item.addEventListener('click',changeSize))
 buyButton.addEventListener('click',showModal)
 closeModal.addEventListener('click',hiddenModal)
-thumbnails.forEach(thumbnail=>thumbnail.addEventListener('click',changeThumbnail))
+thumbnails.forEach(thumbnail => thumbnail.addEventListener('click',changeThumbnail))

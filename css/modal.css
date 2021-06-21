@@ -50,8 +50,8 @@
   gap: 1rem;
 }
 .modal__card__left__picture {
-  height: 64px;
-  width: 64px;
+  height: 4rem;
+  width: 4rem;
 }
 .modal__card__left__picture img {
   display: block;

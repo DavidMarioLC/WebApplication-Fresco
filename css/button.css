@@ -35,6 +35,10 @@
   text-align: center;
 }
 
+.btn-shop:active {
+  transform: scale(0.98);
+}
+
 .btn-shop.btn--primary {
   background: var(--primary);
 }

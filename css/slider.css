@@ -8,6 +8,7 @@
 
 .slider__item {
   display: inline-block;
+  width: auto;
 }
 
 .slider__item img {
@@ -25,12 +26,29 @@
 
 .dot {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   background-color: var(--primaryVariante);
   border-radius: 50%;
 }
 
 .isActive {
   background-color: var(--primary);
+}
+
+@media screen and (min-width: 768px) {
+  .slider__dots {
+    display: none;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .slider__content {
+    max-width: 90rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .slider__content {
+    max-width: unset;
+  }
 }
