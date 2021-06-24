@@ -1,6 +1,13 @@
-.slider {
+.slider-layout {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
+.slider {
+  max-width: 616px;
+}
+/* slider */
 .slider__content {
   white-space: nowrap;
   overflow: hidden;
@@ -12,6 +19,7 @@
 }
 
 .slider__item img {
+  height: auto;
   display: block;
   max-width: 100%;
 }

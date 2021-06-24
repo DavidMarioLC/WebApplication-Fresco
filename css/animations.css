@@ -6,6 +6,9 @@
   display: inline-block;
   animation: moveHand 1s ease infinite alternate;
 }
+.hidden-hand {
+  display: none;
+}
 
 @keyframes moveHand {
   0% {

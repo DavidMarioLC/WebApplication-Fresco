@@ -3,6 +3,7 @@
   src: url("../fonts/Poppins-Regular.ttf");
   font-weight: regular;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url("../fonts/Poppins-Medium.ttf");
   font-weight: medium;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -17,10 +19,12 @@
   src: url("../fonts/Poppins-SemiBold.ttf");
   font-weight: semiBold;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: Poppins;
   src: url("../fonts/Poppins-Bold.ttf");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }

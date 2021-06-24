@@ -1,4 +1,5 @@
 .set {
+  padding-top: 4rem;
 }
 .set__title {
   margin-top: 5rem;
@@ -12,14 +13,20 @@
   overflow: auto;
   white-space: nowrap;
   text-align: center;
+
+  display: flex;
+  gap: 2rem;
+  justify-content: start;
 }
 
 .set__item {
+  flex-shrink: 0;
   display: inline-block;
   text-align: center;
 }
 
 .set__item__image {
+  height: auto;
   display: block;
   max-width: 100%;
 }
@@ -31,8 +38,8 @@
   font: var(--headline6);
 }
 
-@media screen and (min-width: 768px) {
-  .set__item:nth-of-type(3) {
-    margin: 0 2rem;
+@media screen and (min-width: 1366px) {
+  .set__content {
+    justify-content: center;
   }
 }
